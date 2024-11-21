@@ -1,0 +1,76 @@
+
+.menu-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.menu-container {
+  width: 250px;
+  background-color: #ffe4e1; 
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  position: fixed; 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-right: 2px solid #ffb6c1; 
+}
+
+.menu-container::before {
+  content: '';
+  display: block;
+  width: 200px; 
+  height: 200px;
+  background-image: url('uwu.jpg'); 
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+ 
+}
+
+
+.menu-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-container li {
+  margin-bottom: 15px;
+}
+
+.menu-container a {
+  text-decoration: none;
+  color: #ff69b4;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-container a:hover {
+  background-color: #ffb6c1; 
+  color: white; 
+}
+
+.menu-container a.active {
+  background-color: #ff69b4;
+  color: white; 
+}
+
+
+.content-container {
+  margin-left: 250px; 
+  padding: 20px;
+  background-color: #fffafa; 
+  flex: 1;
+  color: #333; 
+  font-family: 'Arial', sans-serif;
+}
+
+
+
+  
+  

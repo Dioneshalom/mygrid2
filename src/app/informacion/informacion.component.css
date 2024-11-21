@@ -1,0 +1,34 @@
+.informacion-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7d1d8; 
+    text-align: center;
+  }
+  
+  .informacion-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .informacion-card h2 {
+    font-size: 2rem;
+    color: #d36b83; 
+    margin-bottom: 20px;
+  }
+  
+  .informacion-card p {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .informacion-card strong {
+    color: #d36b83;
+  }
+  

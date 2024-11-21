@@ -1,0 +1,81 @@
+
+.login-container {
+  font-family: 'More Sugar', sans-serif; 
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8d7da;
+  background-image: url('jiji.jpg'); 
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 150px 100px; 
+  text-align: center; 
+}
+
+h2 {
+  font-family: 'More Sugar', sans-serif; 
+  margin-top: 50px;  
+}
+
+input, button {
+  font-family: 'More Sugar', sans-serif;
+}
+
+
+.login-container h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.login-container label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+
+.login-container input[type="text"], 
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+
+.login-container button {
+  background-color: #ff69b4; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-container button:hover {
+  background-color: #ff3385; 
+}
+
+
+.error {
+  color: #ff0000; 
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+.login-container img {
+  width: 100px;
+  margin-bottom: 20px;
+}

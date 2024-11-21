@@ -1,0 +1,45 @@
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+  }
+  
+  .ag-theme-quartz {
+    width: 100% !important;  
+    height: 400px !important; 
+    border-radius: 8px;
+  }
+  .grid-container {
+    height: 500px; 
+    width: 100%;
+    margin: 20px 0; 
+  }
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #f8c8d8; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.logo {
+  margin-bottom: 30px;
+}
+
+.logo-img {
+  width: 100px;
+  height: auto;
+}
+
+.content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+  
